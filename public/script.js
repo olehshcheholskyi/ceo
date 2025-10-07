@@ -1,5 +1,5 @@
 // --- Global Settings ---
-const PROD_URL = 'ceo-bank-academy-production.up.railway.app'; // Залиште, якщо використовуєте Railway
+const PROD_URL = 'ceo-production.up.railway.app'; // Залиште, якщо використовуєте Railway
 const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:3001' : `https://${PROD_URL}`;
 const WS_BASE_URL = window.location.hostname === 'localhost' ? 'ws://localhost:3001' : `wss://${PROD_URL}`;
 
